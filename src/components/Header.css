@@ -1,0 +1,83 @@
+.navbar {
+    color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    top: 0;
+    background-color: rgba(21, 21, 21, 0.89);
+    z-index: 2;
+    height: 50px;
+    left:0;
+  }
+  
+  
+  .logo {
+    width: 200px; 
+    height: auto;
+    margin-right: 10px; 
+    margin-left: 20px;
+    z-index: -1;
+    
+  }
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 80px;
+    position: relative;
+    margin-left: 50px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #dadbdd; 
+    font-size: 18px;
+    font-weight:600;
+    position: relative;
+    align-items: center;
+    padding-right: 5px;
+    
+  }
+  
+  .nav-links a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 100%;
+    background-color: #fffff0; 
+    height: 2px;
+    transition: right 0.3s ease;
+  }
+  
+  .nav-links a:hover::before {
+    right: 0;
+  }
+
+  .photoslider{
+   margin-top: 50px;
+  }
+
+  .login-container {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+  }
+  
+  .login-button {
+    padding: 8px 16px;
+    background-color: #605F62; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
